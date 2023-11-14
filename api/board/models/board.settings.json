@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boards",
+  "info": {
+    "name": "Board",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "board_items": {
+      "collection": "list-item"
+    },
+    "button": {
+      "model": "button"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

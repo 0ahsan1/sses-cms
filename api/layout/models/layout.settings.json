@@ -1,9 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "list_items",
+  "kind": "singleType",
+  "collectionName": "layouts",
   "info": {
-    "name": "Board item",
-    "description": ""
+    "name": "Layout"
   },
   "options": {
     "increments": true,
@@ -15,10 +14,37 @@
     "title": {
       "type": "string"
     },
-    "content": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "footer_logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "footer_title": {
+      "type": "string"
+    },
+    "footer_content": {
       "type": "richtext"
     },
-    "background_image": {
+    "footer_media": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -30,26 +56,14 @@
       "required": false,
       "pluginOptions": {}
     },
-    "media": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "main_menus": {
+      "collection": "main-menu"
     },
-    "button": {
-      "model": "button"
+    "services": {
+      "collection": "services"
     },
-    "link": {
-      "type": "string"
-    },
-    "slug": {
-      "type": "string"
+    "projects": {
+      "collection": "project"
     }
   }
 }
