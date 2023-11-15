@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "company_profiles",
   "info": {
-    "name": "Company Profile"
+    "name": "Company Profile",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -46,6 +47,9 @@
     },
     "social_links": {
       "collection": "social-link"
+    },
+    "other_phone": {
+      "type": "string"
     }
   }
 }

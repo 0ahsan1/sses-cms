@@ -32,6 +32,9 @@
     },
     "button": {
       "model": "button"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

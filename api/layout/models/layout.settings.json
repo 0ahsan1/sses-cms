@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "layouts",
   "info": {
-    "name": "Layout"
+    "name": "Layout",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -60,7 +61,7 @@
       "collection": "main-menu"
     },
     "services": {
-      "collection": "services"
+      "collection": "list-item"
     },
     "projects": {
       "collection": "project"
