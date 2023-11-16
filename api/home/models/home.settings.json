@@ -18,15 +18,6 @@
     "banner": {
       "model": "banner"
     },
-    "board_1": {
-      "model": "board"
-    },
-    "board_2": {
-      "model": "board"
-    },
-    "board_3": {
-      "model": "board"
-    },
     "teams": {
       "collection": "team"
     },
