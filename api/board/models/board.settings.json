@@ -15,7 +15,7 @@
     "title": {
       "type": "string"
     },
-    "board_items": {
+    "items": {
       "collection": "list-item"
     },
     "button": {

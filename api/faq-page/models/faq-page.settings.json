@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "banners",
+  "kind": "singleType",
+  "collectionName": "faq_pages",
   "info": {
-    "name": "Banner",
+    "name": "FAQ Page",
     "description": ""
   },
   "options": {
@@ -15,8 +15,38 @@
     "title": {
       "type": "string"
     },
-    "content": {
-      "type": "richtext"
+    "subtitle": {
+      "type": "string"
+    },
+    "items": {
+      "collection": "faq"
+    },
+    "banner": {
+      "model": "banner"
+    },
+    "media_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "media_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     },
     "background_image": {
       "model": "file",
@@ -29,27 +59,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "button": {
-      "model": "button"
-    },
-    "slug": {
-      "type": "string"
-    },
-    "background_image_2": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "breadcrumb": {
-      "type": "string"
     }
   }
 }

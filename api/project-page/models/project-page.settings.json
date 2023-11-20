@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "about_sections",
+  "collectionName": "project_pages",
   "info": {
-    "name": "About Section",
-    "description": ""
+    "name": "Project Page"
   },
   "options": {
     "increments": true,
@@ -18,14 +17,8 @@
     "subtitle": {
       "type": "string"
     },
-    "content": {
-      "type": "richtext"
-    },
-    "items": {
-      "collection": "list-item"
-    },
-    "button": {
-      "model": "button"
+    "projects": {
+      "collection": "project"
     }
   }
 }

@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "about_sections",
+  "collectionName": "service_pages",
   "info": {
-    "name": "About Section",
-    "description": ""
+    "name": "Service Page"
   },
   "options": {
     "increments": true,
@@ -18,14 +17,8 @@
     "subtitle": {
       "type": "string"
     },
-    "content": {
-      "type": "richtext"
-    },
     "items": {
-      "collection": "list-item"
-    },
-    "button": {
-      "model": "button"
+      "collection": "services"
     }
   }
 }

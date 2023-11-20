@@ -38,6 +38,9 @@
     },
     "shown_on_footer": {
       "type": "boolean"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }
