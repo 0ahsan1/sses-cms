@@ -30,9 +30,6 @@
       "required": false,
       "pluginOptions": {}
     },
-    "button": {
-      "model": "button"
-    },
     "slug": {
       "type": "string"
     },
@@ -49,6 +46,12 @@
       "pluginOptions": {}
     },
     "breadcrumb": {
+      "type": "string"
+    },
+    "button_title": {
+      "type": "string"
+    },
+    "button_link": {
       "type": "string"
     }
   }

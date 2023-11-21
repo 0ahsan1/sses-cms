@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "boards",
+  "kind": "singleType",
+  "collectionName": "contact_uses",
   "info": {
-    "name": "Board",
+    "name": "Contact Us",
     "description": ""
   },
   "options": {
@@ -15,20 +15,25 @@
     "title": {
       "type": "string"
     },
-    "items": {
-      "collection": "list-item"
-    },
-    "slug": {
-      "type": "string"
-    },
     "subtitle": {
       "type": "string"
     },
-    "button_title": {
+    "form_title": {
       "type": "string"
     },
-    "button_link": {
+    "form_subtitle": {
       "type": "string"
+    },
+    "help_title": {
+      "type": "string"
+    },
+    "help_subtitle": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
     }
   }
 }

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "service_details",
   "info": {
-    "name": "Service Detail"
+    "name": "Service Detail",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -31,6 +32,24 @@
     },
     "services": {
       "collection": "services"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "all_services_text": {
+      "type": "string"
+    },
+    "quote_text": {
+      "type": "string"
+    },
+    "quote_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
     }
   }
 }

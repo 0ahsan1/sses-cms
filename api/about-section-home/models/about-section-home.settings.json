@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "service_pages",
+  "collectionName": "about_section_homes",
   "info": {
-    "name": "Service Page",
-    "description": ""
+    "name": "About Section Home"
   },
   "options": {
     "increments": true,
@@ -18,8 +17,17 @@
     "subtitle": {
       "type": "string"
     },
+    "content": {
+      "type": "richtext"
+    },
     "items": {
       "collection": "list-item"
+    },
+    "button_title": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
     }
   }
 }

@@ -24,8 +24,11 @@
     "items": {
       "collection": "list-item"
     },
-    "button": {
-      "model": "button"
+    "button_title": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
     }
   }
 }

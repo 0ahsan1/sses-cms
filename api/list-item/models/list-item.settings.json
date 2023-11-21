@@ -42,13 +42,16 @@
       "required": false,
       "pluginOptions": {}
     },
-    "button": {
-      "model": "button"
-    },
     "link": {
       "type": "string"
     },
     "slug": {
+      "type": "string"
+    },
+    "button_title": {
+      "type": "string"
+    },
+    "button_link": {
       "type": "string"
     }
   }
