@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "buttons",
+  "collectionName": "solutions",
   "info": {
-    "name": "Button"
+    "name": "Solution"
   },
   "options": {
     "increments": true,

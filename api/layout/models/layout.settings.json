@@ -63,8 +63,26 @@
     "services": {
       "collection": "list-item"
     },
-    "projects": {
-      "collection": "project"
+    "solutions": {
+      "collection": "solution"
+    },
+    "services_title": {
+      "type": "string"
+    },
+    "solutions_title": {
+      "type": "string"
+    },
+    "footer_bg_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

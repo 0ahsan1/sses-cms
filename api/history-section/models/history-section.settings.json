@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "about_sections",
+  "collectionName": "history_sections",
   "info": {
-    "name": "About Section",
-    "description": ""
+    "name": "History Section"
   },
   "options": {
     "increments": true,
@@ -15,23 +14,23 @@
     "title": {
       "type": "string"
     },
-    "subtitle": {
-      "type": "string"
-    },
     "content": {
       "type": "richtext"
     },
-    "items": {
-      "collection": "list-item"
-    },
-    "button_title": {
-      "type": "string"
-    },
-    "button_link": {
-      "type": "string"
-    },
     "list_content": {
       "type": "richtext"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

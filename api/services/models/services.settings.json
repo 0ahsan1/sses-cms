@@ -28,9 +28,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "button": {
-      "model": "button"
     }
   }
 }
