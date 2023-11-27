@@ -48,6 +48,9 @@
     "slug": {
       "type": "uid",
       "targetField": "subtitle"
+    },
+    "excerpt": {
+      "type": "richtext"
     }
   }
 }
