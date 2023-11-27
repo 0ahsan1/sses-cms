@@ -47,10 +47,28 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "subtitle"
+      "targetField": "title"
     },
     "excerpt": {
       "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    },
+    "clients": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "about_project_text": {
+      "type": "string"
+    },
+    "project_details_text": {
+      "type": "string"
     }
   }
 }
