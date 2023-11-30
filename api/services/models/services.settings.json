@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "services",
   "info": {
-    "name": "Services"
+    "name": "Services",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,6 +29,13 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "excerpt": {
+      "type": "richtext"
     }
   }
 }
