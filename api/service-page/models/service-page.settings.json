@@ -18,8 +18,8 @@
     "subtitle": {
       "type": "string"
     },
-    "items": {
-      "collection": "list-item"
+    "services": {
+      "collection": "services"
     }
   }
 }
