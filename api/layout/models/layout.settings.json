@@ -61,7 +61,7 @@
       "collection": "main-menu"
     },
     "services": {
-      "collection": "list-item"
+      "collection": "services"
     },
     "solutions": {
       "collection": "solution"
